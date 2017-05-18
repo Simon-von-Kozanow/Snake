@@ -4,7 +4,7 @@ pygame.init()
 print ("gra wlaczy sie za chwilke :)")
 #importujemy muzyke 
 try:
-    sound = pygame.mixer.Sound("Soundtrack.ogg")
+    sound = pygame.mixer.Sound("Soundtrack.ogg") #jest za duzy jak na gita
     print ("1")
 except:
     try:
